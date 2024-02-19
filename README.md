@@ -3,9 +3,14 @@ Provide a mechanism to validate the `props` of React hook(s) using [prop-types](
 
 #### Install
 
+`yarn add prop-types prop-types-hook`
+
 #### Usage
 
 ```javascript
+
+import { withPropsValidation } from 'prop-types-hook'
+
 const useMyHook = (props) => {
   const { oneProp, twoProp } = props
   
